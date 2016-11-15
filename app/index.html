@@ -7,12 +7,148 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <title>StarterPack</title>
     <!-- bower:css -->
+    <link rel="stylesheet" href="libs/animate.css/animate.css" />
     <!-- endbower -->
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 <body>
 
-<h1>Starter Pack by veranoo</h1>
+<header id="cover">
+    <div class="heading-intro">
+        <h1 class="name-title">Przemysław Afeltowicz</h1>
+        <div class="typed">
+            <h2 class="main-title"> </h2>
+        </div>
+
+        <a class="btn btn-border wow bounceIn" onclick="$('#about').animatescroll();" href="#about" data-wow-duration="2s" data-wow-delay="1s">Zobacz więcej</a>
+    </div>
+</header>
+
+<main id="fullpage">
+    <section id="about">
+        <div class="heading">
+            <h2 class="block-heading">O mnie</h2>
+            <p class="block-subheading">Czyli trochę o mojej historii...</p>
+        </div>
+        <div class="container wow fadeInUp">
+            <p>Witam, jestem Przemek. Mam 25 lat. Pochodzę z Włocławka z mniejszej miejscowości w której nie widzę już
+                miejsca dla siebie.</p>
+            <p>Praktycznie od zawszę interesowałem się informatyką. Ukończyłem studia na kierunku informatyka ze
+                skończonym
+                dyplomem inżyniera, lecz wiem że w dzisiejszych czasach liczą się bardziej umiejętności jakie się
+                ma.</p>
+            <p>Front-endem zajmuję się od roku, w firmie której pracowałem musiałem zajmować się wieloma rzeczami
+                (projektowanie, programowanie w PHP, front-end, obsługa klienta, itp.), w dodatku musiałem być
+                samodzielnym. Dlatego też decyzja zmiany. Chciałbym się rozwijać i być najlepszym specjalistą w jednej
+                dziedzinie, robić to z pasją i dużym zaangażowaniem.</p>
+            <p>Jestem człowiekiem dla którego bardzo ważny jest rozwój. Sporo wolnego czasu spędzam na nauce. Śledzę
+                nowe technologię.</p>
+            <p>Na co dzień staram być pogodnym człowiekiem, lubię kontakt z innymi ludźmi, chętnie rozmawiam, jestem
+                uczynny, bezkonfliktowy. Czas wolny staram się spędzać raczej aktywnie</p>
+        </div>
+
+    </section>
+    <section id="skills">
+        <div class="heading">
+            <h2 class="block-heading">Umiejętności</h2>
+            <p class="block-subheading">Moje kwalifikacje i doświadczenie.</p>
+        </div>
+        <h3 class="brand-heading">Technologie:</h3>
+        <ul class="brand-icons">
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="100ms"><img src="images/html5.png" alt="html5"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="300ms"><img src="images/css3.png" alt="html5"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="500ms"><img src="images/js.png" alt="js"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="700ms"><img src="images/sass.png" alt="sass"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="900ms"><img src="images/jquery.png" alt="jquery"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1100ms"><img src="images/git.png" alt="git"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1300ms"><img src="images/php.png" alt="php"></li>
+        </ul>
+        <h3 class="brand-heading">Narzędzia:</h3>
+        <ul class="brand-icons">
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1500ms"><img src="images/ps.png" alt="ps"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1700ms"><img src="images/ai.png" alt="ai"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1900ms"><img src="images/node.png" alt="node"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="2100ms"><img src="images/gulp.png" alt="gulp"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="2300ms"><img src="images/bower.png" alt="bower"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="2500ms"><img src="images/codeigniter.png" alt="codeigniter"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="2700ms"><img src="images/bootstrap.png" alt="bootstrap"></li>
+        </ul>
+        <h3 class="brand-heading">Poznaje:</h3>
+        <ul class="brand-icons">
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="2900ms"><img src="images/angular.png" alt="angular"></li>
+            <li class="wow bounceIn" data-wow-duration="2s" data-wow-delay="3100ms"><img src="images/react.png" alt="react"></li>
+        </ul>
+        <div class="cv-download">
+            <a class="cv-link" target="_blank" href="https://drive.google.com/file/d/0B1du0hUpU2JbU0x1ZDhPOFVxSkE/view?usp=sharing">
+                <img src="images/cv.png" alt="cv"><span>Pobierz CV</span>
+            </a>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="heading">
+            <h2 class="block-heading">Portfolio</h2>
+            <p class="block-subheading">Moje projekty.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 portfolio-item">
+                    <div class="image">
+                        <img src="images/anwil.jpg" alt="anwil">
+                    </div>
+                    <div class="over">
+                       <div class="over-heading">
+                           <h3>Anwil Włocławek</h3>
+                           <p>Design, HTML5, CSS3, JS, BOOTSTRAP</p>
+                           <a href="http://kkwloclawek.pl" target="_blank"><img src="images/link.png" alt="link"></a>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 portfolio-item">
+                    <div class="image">
+                        <img src="images/medfuture.jpg" alt="medfuture">
+                    </div>
+                    <div class="over">
+                        <div class="over-heading">
+                            <h3>Medfuture.pl</h3>
+                            <p>Design, HTML5, CSS3, JS, BOOTSTRAP</p>
+                            <a href="http://projekty.pro-comp.pl/med" target="_blank"><img src="images/link.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 portfolio-item">
+                    <div class="image">
+                        <img src="images/judo.jpg" alt="judo">
+                    </div>
+                    <div class="over">
+                        <div class="over-heading">
+                            <h3>Akademia JUDO</h3>
+                            <p>Design, HTML5, CSS3, JS, BOOTSTRAP</p>
+                            <a href="http://kkwloclawek.pl" target="_blank"><img src="images/link.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <h2 class="block-heading">Kontakt</h2>
+            <p class="block-subheading">Skontaktuj się ze mną.</p>
+        </div>
+        <h3 class="name">Przemysław Afeltowicz</h3>
+        <p class="tele">tel. 793-530-416</p>
+        <a class="mail" href="mailto:przemyslaw.afeltowicz@gmail.com">przemyslaw.afeltowicz@gmail.com</a>
+        <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/przemysław-afeltowicz-809741131" target="_blank"><img src="images/in.png" alt="in"></a></li>
+            <li><a href="https://github.com/przemyslaw-afeltowicz" target="_blank"><img src="images/github.png" alt="github"></a></li>
+            <li><a href="https://www.facebook.com/veranoo91" target="_blank"><img src="images/fb.png" alt="fb"></a></li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2016 Przemysław Afeltowicz</p>
+</footer>
 
 
 <!-- Preloader -->
@@ -23,13 +159,13 @@
 
 <!-- bower:js -->
 <script src="libs/jquery/dist/jquery.js"></script>
+<script src="libs/typed.js/dist/typed.min.js"></script>
+<script src="libs/animatescroll/animatescroll.js"></script>
+<script src="libs/wow/dist/wow.js"></script>
 <!-- endbower -->
 <script type="text/javascript" src="js/main.js"></script>
 
 
-<script>
-
-</script>
 
 </body>
 </html>

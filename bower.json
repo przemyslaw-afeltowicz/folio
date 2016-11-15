@@ -17,7 +17,11 @@
   ],
   "dependencies": {
     "font-awesome": "font-awsome#^4.6.3",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "typed.js": "^1.1.4",
+    "animatescroll": "^1.0.7",
+    "wow": "wowjs#^1.1.2",
+    "animate.css": "^3.5.2"
   },
   "overrides": {
     "bootstrap": {
