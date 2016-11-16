@@ -9,6 +9,7 @@ header#cover{
     text-align: center;
     top: 50%;
     left: 50%;
+    width: 90%;
     transform: translate(-50%, -50%);
     .name-title{
       margin: 0;
@@ -21,6 +22,35 @@ header#cover{
       font-size: 40px;
       color: $orange-color;
       text-transform: uppercase;
+      @media (max-width: 500px) {
+        font-size: 25px;
+      }
+    }
+    .typed-cursor{
+      color: $orange-color;
+      font-size: 40px;
+      opacity: 1;
+      -webkit-animation: blink 0.7s infinite;
+      -moz-animation: blink 0.7s infinite;
+      animation: blink 0.7s infinite;
+      @media (max-width: 500px) {
+        font-size: 25px;
+      }
+    }
+    @keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
     }
     .btn-border{
       margin-top: 70px;
