@@ -24,7 +24,8 @@ header#cover{
       font-size: 40px;
       color: $orange-color;
       text-transform: uppercase;
-      @media (max-width: 500px) {
+
+      @media (max-width: 600px) {
         font-size: 25px;
       }
     }
@@ -35,7 +36,7 @@ header#cover{
       -webkit-animation: blink 0.7s infinite;
       -moz-animation: blink 0.7s infinite;
       animation: blink 0.7s infinite;
-      @media (max-width: 500px) {
+      @media (max-width: 600px) {
         font-size: 25px;
       }
     }
